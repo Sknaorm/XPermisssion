@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShapeLayout">
+        <!--        <attr name="shape" format="enum">-->
+        <!--            <enum name="rectangle" value="0" />-->
+        <!--        </attr>-->
+        <attr name="corners_radius" format="dimension" />
+        <attr name="solid_color" format="color" />
+        <attr name="gradient_angle" format="enum">
+            <enum name="angle_0" value="0" />
+            <enum name="angle_45" value="45" />
+            <enum name="angle_90" value="90" />
+            <enum name="angle_135" value="135" />
+            <enum name="angle_180" value="180" />
+            <enum name="angle_225" value="225" />
+            <enum name="angle_270" value="270" />
+            <enum name="angle_315" value="315" />
+        </attr>
+    </declare-styleable>
+</resources>
