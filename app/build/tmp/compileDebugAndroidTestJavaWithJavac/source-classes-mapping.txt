@@ -1,2 +1,0 @@
-melon/south/com/libraryapp/test/BuildConfig.java
- melon.south.com.libraryapp.test.BuildConfig

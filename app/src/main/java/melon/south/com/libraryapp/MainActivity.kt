@@ -7,7 +7,7 @@ import android.os.Handler
 import android.widget.Toast
 import com.cn.permission.PermissionHelper
 import com.cn.utils.SingleToast
-import com.rulin.view.mvc.QuickActivity
+import com.cn.view.mvc.QuickActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 

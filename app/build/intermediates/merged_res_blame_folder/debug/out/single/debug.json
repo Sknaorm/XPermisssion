@@ -1,102 +1,102 @@
 [
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_a.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\layout\\dialog_a.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/layout_dialog_b.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/dialog_b.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\xml\\network_security_config.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/layout_fragment_main.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/fragment_main.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_test.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\drawable\\shape_test.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_head.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/drawable-xhdpi/ic_head.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_head.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\drawable-xhdpi\\ic_head.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_b.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\layout\\dialog_b.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/xml/network_security_config.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_b1.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\layout\\dialog_b1.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/drawable-xhdpi/ic_launcher_background.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/layout_dialog_a.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/dialog_a.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_home_head.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xhdpi/ic_home_head.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_home_head.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-xhdpi\\ic_home_head.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/layout_dialog_b1.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/dialog_b1.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main1.xml.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\layout\\activity_main1.xml"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/drawable_shape_test.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/drawable/shape_test.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/huangfei/AndroidProject/my_app/app/build/intermediates/res/merged/debug/layout_activity_main1.xml.flat",
-        "source": "/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/activity_main1.xml"
+        "merged": "C:\\Users\\L\\Desktop\\library\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\L\\Desktop\\library\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     }
 ]
