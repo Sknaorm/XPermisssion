@@ -38,34 +38,33 @@
 22-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:14:13-58
 23        android:supportsRtl="true"
 23-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:15:13-39
-24        android:testOnly="true"
-25        android:theme="@style/AppTheme" >
-25-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:16:13-44
-26        <activity android:name="melon.south.com.libraryapp.MainActivity" >
-26-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:19:9-25:20
-26-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:19:19-47
-27            <intent-filter>
-27-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:20:13-24:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:21:17-69
-28-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:21:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:23:17-77
-30-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:23:27-74
-31            </intent-filter>
-32        </activity>
-33
-34        <provider
-34-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\L\.gradle\caches\transforms-2\files-2.1\80860067bd83820039ed0c0482586fb0\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-35-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\L\.gradle\caches\transforms-2\files-2.1\80860067bd83820039ed0c0482586fb0\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-36            android:authorities="melon.south.com.libraryapp.lifecycle-process"
-36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\L\.gradle\caches\transforms-2\files-2.1\80860067bd83820039ed0c0482586fb0\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-37            android:exported="false"
-37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\L\.gradle\caches\transforms-2\files-2.1\80860067bd83820039ed0c0482586fb0\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-38            android:multiprocess="true" />
-38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\L\.gradle\caches\transforms-2\files-2.1\80860067bd83820039ed0c0482586fb0\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-39    </application>
-40
-41</manifest>
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:16:13-44
+25        <activity android:name="melon.south.com.libraryapp.MainActivity" >
+25-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:19:9-25:20
+25-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:19:19-47
+26            <intent-filter>
+26-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:20:13-24:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:21:17-69
+27-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:21:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:23:17-77
+29-->C:\Users\L\Desktop\library\app\src\main\AndroidManifest.xml:23:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\L\.gradle\caches\transforms-2\files-2.1\80860067bd83820039ed0c0482586fb0\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+34            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+34-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\L\.gradle\caches\transforms-2\files-2.1\80860067bd83820039ed0c0482586fb0\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+35            android:authorities="melon.south.com.libraryapp.lifecycle-process"
+35-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\L\.gradle\caches\transforms-2\files-2.1\80860067bd83820039ed0c0482586fb0\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+36            android:exported="false"
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\L\.gradle\caches\transforms-2\files-2.1\80860067bd83820039ed0c0482586fb0\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+37            android:multiprocess="true" />
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\L\.gradle\caches\transforms-2\files-2.1\80860067bd83820039ed0c0482586fb0\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+38    </application>
+39
+40</manifest>

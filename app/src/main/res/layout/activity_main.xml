@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/shape_test"
+        android:id="@+id/abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:padding="15dp"
         android:text="我 origin 你妈对的" />
 
-    <com.cn.layout.ShapeLayout
-        app:stroke_color="#333333"
-        app:stroke_width="10dp"
-        app:stroke_dash_width="10dp"
-        app:stroke_dash_gap="10dp"
+    <androidx.appcompat.widget.AppCompatTextView
+        android:checked="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:corners_radius="34dp"
-        app:gradient_type="linear"
-        app:gradient_start_color="@color/colorPrimary"
-        app:gradient_end_color="@color/colorAccent">
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="我 origin 你妈对的" />
 
-        <TextView
-            android:id="@+id/abc"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:padding="15dp"
-            android:text="我 origin 你妈对的" />
-    </com.cn.layout.ShapeLayout>
+    <com.cn.layout.ShapeTextView
+        app:solid_color="@color/colorAccent"
+        app:corners_radius="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="我 origin 你妈对的" />
+
+
 </LinearLayout>

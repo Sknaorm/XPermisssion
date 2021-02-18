@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShapeTextView">
+        <attr name="corners_radius" />
+        <attr name="corners_left_radius" />
+        <attr name="corners_top_radius" />
+        <attr name="corners_right_radius" />
+        <attr name="corners_bottom_radius" />
+        <attr name="solid_color" />
+        <attr name="gradient_start_color" />
+        <attr name="gradient_center_color" />
+        <attr name="gradient_end_color" />
+        <attr name="gradient_center_x" />
+        <attr name="gradient_center_y" />
+        <attr name="gradient_radius" />
+        <attr name="gradient_type"/>
+        <attr name="gradient_angle"/>
+        <attr name="stroke_color" />
+        <attr name="stroke_width" />
+        <attr name="stroke_dash_width" />
+        <attr name="stroke_dash_gap" />
+    </declare-styleable>
+
+</resources>

@@ -35,34 +35,6 @@ class MainActivity : QuickActivity() {
     }
 
     override fun initEvent() {
-        abc.setOnClickListener {
-            SingleToast.instance.show {
-                text = "你"
-                duration = Toast.LENGTH_LONG
-            }
-            SingleToast.instance.show {
-                text = "你"
-                duration = Toast.LENGTH_LONG
-            }
-            SingleToast.instance.show {
-                text = "你"
-                duration = Toast.LENGTH_LONG
-            }
-            SingleToast.instance.show {
-                text = "你你"
-                duration = Toast.LENGTH_LONG
-            }
-            SingleToast.instance.show {
-                text = "你你你"
-                duration = Toast.LENGTH_LONG
-            }
-            Handler().postDelayed({
-                SingleToast.instance.show {
-                    text = "你你"
-                    duration = Toast.LENGTH_LONG
-                }
-            }, 1000)
-        }
     }
 
     override fun initThird() {

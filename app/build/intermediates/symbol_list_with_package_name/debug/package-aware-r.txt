@@ -1617,15 +1617,23 @@ drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id BL_TR
 id BOTTOM_END
 id BOTTOM_START
+id BOTTOM_TOP
+id BR_TL
 id CTRL
 id FUNCTION
+id LEFT_RIGHT
 id META
+id RIGHT_LEFT
 id SHIFT
 id SYM
+id TL_BR
+id TOP_BOTTOM
 id TOP_END
 id TOP_START
+id TR_BL
 id aaa
 id abc
 id accessibility_action_clickable_span
@@ -1684,14 +1692,6 @@ id add
 id alertTitle
 id all
 id always
-id angle_0
-id angle_135
-id angle_180
-id angle_225
-id angle_270
-id angle_315
-id angle_45
-id angle_90
 id async
 id auto
 id barrier
@@ -2952,7 +2952,9 @@ styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
-styleable ShapeLayout corners_bottom_radius corners_left_radius corners_radius corners_right_radius corners_top_radius gradient_angle gradient_center_color gradient_center_x gradient_center_y gradient_end_color gradient_radius gradient_start_color gradient_type solid_color stroke_color stroke_dash_gap stroke_dash_width stroke_width
+styleable ShapeButton corners_bottom_radius corners_left_radius corners_radius corners_right_radius corners_top_radius gradient_angle gradient_center_color gradient_center_x gradient_center_y gradient_end_color gradient_radius gradient_start_color gradient_type solid_color stroke_color stroke_dash_gap stroke_dash_width stroke_width
+styleable ShapeEditText corners_bottom_radius corners_left_radius corners_radius corners_right_radius corners_top_radius gradient_angle gradient_center_color gradient_center_x gradient_center_y gradient_end_color gradient_radius gradient_start_color gradient_type solid_color stroke_color stroke_dash_gap stroke_dash_width stroke_width
+styleable ShapeTextView corners_bottom_radius corners_left_radius corners_radius corners_right_radius corners_top_radius gradient_angle gradient_center_color gradient_center_x gradient_center_y gradient_end_color gradient_radius gradient_start_color gradient_type solid_color stroke_color stroke_dash_gap stroke_dash_width stroke_width
 styleable ShapeableImageView shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
 styleable Slider android_value android_stepSize android_valueFrom android_valueTo haloColor haloRadius labelBehavior labelStyle thumbColor thumbElevation thumbRadius tickColor tickColorActive tickColorInactive trackColor trackColorActive trackColorInactive trackHeight
 styleable Snackbar snackbarButtonStyle snackbarStyle snackbarTextViewStyle
