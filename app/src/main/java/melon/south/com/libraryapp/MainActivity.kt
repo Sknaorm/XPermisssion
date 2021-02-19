@@ -4,6 +4,7 @@ import android.Manifest
 import android.content.Context
 import android.content.Intent
 import android.os.Handler
+import android.widget.TextView
 import android.widget.Toast
 import com.cn.permission.PermissionHelper
 import com.cn.utils.SingleToast
@@ -32,37 +33,13 @@ class MainActivity : QuickActivity() {
 
     fun a(context: Context) {
         context.packageName
+        TextView(this).apply {
+setOnClickListener {  }
+            isSelected=false
+        }
     }
 
     override fun initEvent() {
-        abc.setOnClickListener {
-            SingleToast.instance.show {
-                text = "你"
-                duration = Toast.LENGTH_LONG
-            }
-            SingleToast.instance.show {
-                text = "你"
-                duration = Toast.LENGTH_LONG
-            }
-            SingleToast.instance.show {
-                text = "你"
-                duration = Toast.LENGTH_LONG
-            }
-            SingleToast.instance.show {
-                text = "你你"
-                duration = Toast.LENGTH_LONG
-            }
-            SingleToast.instance.show {
-                text = "你你你"
-                duration = Toast.LENGTH_LONG
-            }
-            Handler().postDelayed({
-                SingleToast.instance.show {
-                    text = "你你"
-                    duration = Toast.LENGTH_LONG
-                }
-            }, 1000)
-        }
     }
 
     override fun initThird() {
