@@ -1,5 +1,6 @@
+include ':mylibrary'
 include ':utils'
 include ':work'
 include ':permission'
-include ':app'
 include ':view'
+include ':app'

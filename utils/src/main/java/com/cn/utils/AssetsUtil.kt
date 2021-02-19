@@ -1,4 +1,4 @@
-package com.rulin.utils
+package com.cn.utils
 
 import android.content.Context
 import android.graphics.Bitmap
