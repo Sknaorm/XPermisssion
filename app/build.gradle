@@ -46,6 +46,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     implementation project(path: ':view')
+    implementation project(path: ':layout')
     implementation project(path: ':permission')
     implementation project(path: ':utils')
     implementation project(path: ':work')

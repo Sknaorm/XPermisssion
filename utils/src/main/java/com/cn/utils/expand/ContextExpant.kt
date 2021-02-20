@@ -4,12 +4,11 @@ import android.content.Context
 import android.content.res.Resources
 import android.os.Build
 
-fun getAppName(context: Context): String {
+fun Context.getAppName(): String {
     try {
-        val packageManager = context.packageManager
-        val packageInfo = packageManager.getPackageInfo(context.packageName, 0)
+        val packageInfo = packageManager.getPackageInfo(packageName, 0)
         val labelRes = packageInfo.applicationInfo.labelRes
-        return context.resources.getString(labelRes)
+        return resources.getString(labelRes)
     } catch (e: Exception) {
         e.printStackTrace()
     }
@@ -42,3 +41,18 @@ fun Context.getAppVersionName(): String {
     return ""
 }
 
+fun Context.getStatusBarHeight(): Int {
+    val system = Resources.getSystem()
+    val a = system.getIdentifier("status_bar_height", "dimen", "android")
+    return if (a > 0)
+        system.getDimensionPixelSize(a)
+    else
+        0
+}
+
+fun Context.getToolbarHeight(): Int {
+    val actionbarSizeTypedArray = obtainStyledAttributes(intArrayOf(android.R.attr.actionBarSize))
+    val h = actionbarSizeTypedArray.getDimension(0, 0f)
+    actionbarSizeTypedArray.recycle()
+    return h.toInt()
+}

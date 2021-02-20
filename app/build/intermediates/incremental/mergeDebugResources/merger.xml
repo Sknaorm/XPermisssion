@@ -5725,7 +5725,10 @@
   </style><style name="Widget.MaterialComponents.PopupMenu.ListPopupWindow" parent="Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow">
     <item name="android:popupBackground">?attr/popupMenuBackground</item>
     <item name="android:popupElevation">8dp</item>
-  </style></file><file path="/Users/huangfei/.gradle/caches/transforms-2/files-2.1/8ce54b14adc39e2f9b1d55a6bc33d61d/material-1.2.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml" qualifiers="w360dp-port-v13"><dimen name="mtrl_calendar_bottom_padding">4dp</dimen><dimen name="mtrl_calendar_day_corner">18dp</dimen><dimen name="mtrl_calendar_day_height">40dp</dimen><dimen name="mtrl_calendar_day_horizontal_padding">2dp</dimen><dimen name="mtrl_calendar_day_vertical_padding">2dp</dimen><dimen name="mtrl_calendar_day_width">40dp</dimen><dimen name="mtrl_calendar_days_of_week_height">40dp</dimen><dimen name="mtrl_calendar_month_horizontal_padding">4dp</dimen></file><file path="/Users/huangfei/.gradle/caches/transforms-2/files-2.1/8ce54b14adc39e2f9b1d55a6bc33d61d/material-1.2.0/res/values-night-v8/values-night-v8.xml" qualifiers="night-v8"><style name="Theme.MaterialComponents.DayNight" parent="Theme.MaterialComponents"/><style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="Theme.MaterialComponents.BottomSheetDialog"/><style name="Theme.MaterialComponents.DayNight.Bridge" parent="Theme.MaterialComponents.Bridge"/><style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="Theme.MaterialComponents"/><style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="Theme.MaterialComponents.Bridge"/><style name="Theme.MaterialComponents.DayNight.Dialog" parent="Theme.MaterialComponents.Dialog"/><style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="Theme.MaterialComponents.Dialog.Alert"/><style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="Theme.MaterialComponents.Dialog.Alert.Bridge"/><style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="Theme.MaterialComponents.Dialog.Bridge"/><style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="Theme.MaterialComponents.Dialog.FixedSize"/><style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="Theme.MaterialComponents.Dialog.FixedSize.Bridge"/><style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="Theme.MaterialComponents.Dialog.MinWidth"/><style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="Theme.MaterialComponents.Dialog.MinWidth.Bridge"/><style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="Theme.MaterialComponents.DialogWhenLarge"/><style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="Theme.MaterialComponents.NoActionBar"/><style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.NoActionBar.Bridge"/><style name="ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog"/><style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="Widget.MaterialComponents.ActionBar.Surface"/><style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="Widget.MaterialComponents.AppBarLayout.Surface"/><style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="Widget.MaterialComponents.BottomAppBar"/><style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="Widget.MaterialComponents.BottomNavigationView"/><style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="Widget.MaterialComponents.TabLayout"/><style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="Widget.MaterialComponents.Toolbar.Surface"/></file><file path="/Users/huangfei/.gradle/caches/transforms-2/files-2.1/8ce54b14adc39e2f9b1d55a6bc33d61d/material-1.2.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml" qualifiers="h360dp-land-v13"><dimen name="mtrl_calendar_bottom_padding">4dp</dimen><dimen name="mtrl_calendar_day_corner">18dp</dimen><dimen name="mtrl_calendar_day_height">40dp</dimen><dimen name="mtrl_calendar_day_horizontal_padding">2dp</dimen><dimen name="mtrl_calendar_day_vertical_padding">2dp</dimen><dimen name="mtrl_calendar_day_width">40dp</dimen><dimen name="mtrl_calendar_days_of_week_height">20dp</dimen><dimen name="mtrl_calendar_landscape_header_width">128dp</dimen><dimen name="mtrl_calendar_month_horizontal_padding">4dp</dimen></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":work$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/work/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":work" from-dependency="true" generated-set=":work$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/work/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":utils$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/utils/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":utils" from-dependency="true" generated-set=":utils$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/utils/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":permission$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/permission/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":permission" from-dependency="true" generated-set=":permission$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/permission/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":view$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/view/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":view" from-dependency="true" generated-set=":view$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/view/build/intermediates/packaged_res/debug"><file path="/Users/huangfei/AndroidProject/my_app/view/build/intermediates/packaged_res/debug/values/values.xml" qualifiers=""><attr format="dimension" name="corners_bottom_radius"/><attr format="dimension" name="corners_left_radius"/><attr format="dimension" name="corners_radius"/><attr format="dimension" name="corners_right_radius"/><attr format="dimension" name="corners_top_radius"/><attr format="enum" name="gradient_angle">
+  </style></file><file path="/Users/huangfei/.gradle/caches/transforms-2/files-2.1/8ce54b14adc39e2f9b1d55a6bc33d61d/material-1.2.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml" qualifiers="w360dp-port-v13"><dimen name="mtrl_calendar_bottom_padding">4dp</dimen><dimen name="mtrl_calendar_day_corner">18dp</dimen><dimen name="mtrl_calendar_day_height">40dp</dimen><dimen name="mtrl_calendar_day_horizontal_padding">2dp</dimen><dimen name="mtrl_calendar_day_vertical_padding">2dp</dimen><dimen name="mtrl_calendar_day_width">40dp</dimen><dimen name="mtrl_calendar_days_of_week_height">40dp</dimen><dimen name="mtrl_calendar_month_horizontal_padding">4dp</dimen></file><file path="/Users/huangfei/.gradle/caches/transforms-2/files-2.1/8ce54b14adc39e2f9b1d55a6bc33d61d/material-1.2.0/res/values-night-v8/values-night-v8.xml" qualifiers="night-v8"><style name="Theme.MaterialComponents.DayNight" parent="Theme.MaterialComponents"/><style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="Theme.MaterialComponents.BottomSheetDialog"/><style name="Theme.MaterialComponents.DayNight.Bridge" parent="Theme.MaterialComponents.Bridge"/><style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="Theme.MaterialComponents"/><style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="Theme.MaterialComponents.Bridge"/><style name="Theme.MaterialComponents.DayNight.Dialog" parent="Theme.MaterialComponents.Dialog"/><style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="Theme.MaterialComponents.Dialog.Alert"/><style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="Theme.MaterialComponents.Dialog.Alert.Bridge"/><style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="Theme.MaterialComponents.Dialog.Bridge"/><style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="Theme.MaterialComponents.Dialog.FixedSize"/><style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="Theme.MaterialComponents.Dialog.FixedSize.Bridge"/><style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="Theme.MaterialComponents.Dialog.MinWidth"/><style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="Theme.MaterialComponents.Dialog.MinWidth.Bridge"/><style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="Theme.MaterialComponents.DialogWhenLarge"/><style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="Theme.MaterialComponents.NoActionBar"/><style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.NoActionBar.Bridge"/><style name="ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog"/><style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="Widget.MaterialComponents.ActionBar.Surface"/><style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="Widget.MaterialComponents.AppBarLayout.Surface"/><style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="Widget.MaterialComponents.BottomAppBar"/><style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="Widget.MaterialComponents.BottomNavigationView"/><style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="Widget.MaterialComponents.TabLayout"/><style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="Widget.MaterialComponents.Toolbar.Surface"/></file><file path="/Users/huangfei/.gradle/caches/transforms-2/files-2.1/8ce54b14adc39e2f9b1d55a6bc33d61d/material-1.2.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml" qualifiers="h360dp-land-v13"><dimen name="mtrl_calendar_bottom_padding">4dp</dimen><dimen name="mtrl_calendar_day_corner">18dp</dimen><dimen name="mtrl_calendar_day_height">40dp</dimen><dimen name="mtrl_calendar_day_horizontal_padding">2dp</dimen><dimen name="mtrl_calendar_day_vertical_padding">2dp</dimen><dimen name="mtrl_calendar_day_width">40dp</dimen><dimen name="mtrl_calendar_days_of_week_height">20dp</dimen><dimen name="mtrl_calendar_landscape_header_width">128dp</dimen><dimen name="mtrl_calendar_month_horizontal_padding">4dp</dimen></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":layout$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/layout/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":layout" from-dependency="true" generated-set=":layout$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/layout/build/intermediates/packaged_res/debug"><file path="/Users/huangfei/AndroidProject/my_app/layout/build/intermediates/packaged_res/debug/values/values.xml" qualifiers=""><attr format="dimension" name="corners_bottom_radius"/><attr format="dimension" name="corners_left_radius"/><attr format="dimension" name="corners_radius"/><attr format="enum" name="corners_radius_weight">
+        <enum name="width" value="0"/>
+        <enum name="height" value="1"/>
+    </attr><attr format="dimension" name="corners_right_radius"/><attr format="dimension" name="corners_top_radius"/><attr format="enum" name="gradient_angle">
         <enum name="LEFT_RIGHT" value="0"/>
         <enum name="BL_TR" value="45"/>
         <enum name="BOTTOM_TOP" value="90"/>
@@ -5738,7 +5741,33 @@
         <enum name="linear" value="0"/>
         <enum name="radial" value="1"/>
         <enum name="sweep" value="2"/>
-    </attr><attr format="color" name="solid_color"/><attr format="color" name="stroke_color"/><attr format="dimension" name="stroke_dash_gap"/><attr format="dimension" name="stroke_dash_width"/><attr format="dimension" name="stroke_width"/><style name="MyToolsAddAvatar" parent="Theme.AppCompat.Light.Dialog">
+    </attr><attr format="reference" name="selected_appearance"/><attr format="color" name="solid_color"/><attr format="color" name="stroke_color"/><attr format="dimension" name="stroke_dash_gap"/><attr format="dimension" name="stroke_dash_width"/><attr format="dimension" name="stroke_width"/><declare-styleable name="StateLayout">
+        <attr name="selected"/>
+        <attr name="selected_appearance"/>
+        <attr name="unselected_appearance"/>
+        <attr name="default_appearance"/>
+    </declare-styleable><attr format="boolean" name="selected"/><declare-styleable name="State">
+        <attr name="corners_radius_weight"/>
+        <attr name="corners_radius"/>
+        <attr name="corners_left_radius"/>
+        <attr name="corners_top_radius"/>
+        <attr name="corners_right_radius"/>
+        <attr name="corners_bottom_radius"/>
+        <attr name="solid_color"/>
+        <attr name="solid_text_color"/>
+        <attr name="gradient_start_color"/>
+        <attr name="gradient_center_color"/>
+        <attr name="gradient_end_color"/>
+        <attr name="gradient_center_x"/>
+        <attr name="gradient_center_y"/>
+        <attr name="gradient_radius"/>
+        <attr name="gradient_type"/>
+        <attr name="gradient_angle"/>
+        <attr name="stroke_color"/>
+        <attr name="stroke_width"/>
+        <attr name="stroke_dash_width"/>
+        <attr name="stroke_dash_gap"/>
+    </declare-styleable><attr format="color" name="solid_text_color"/><attr format="reference" name="default_appearance"/><attr format="reference" name="unselected_appearance"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":work$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/work/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":work" from-dependency="true" generated-set=":work$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/work/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":utils$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/utils/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":utils" from-dependency="true" generated-set=":utils$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/utils/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":permission$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/permission/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":permission" from-dependency="true" generated-set=":permission$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/permission/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":view$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/view/build/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":view" from-dependency="true" generated-set=":view$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/view/build/intermediates/packaged_res/debug"><file path="/Users/huangfei/AndroidProject/my_app/view/build/intermediates/packaged_res/debug/values/values.xml" qualifiers=""><style name="MyToolsAddAvatar" parent="Theme.AppCompat.Light.Dialog">
         
 
         
@@ -5755,34 +5784,21 @@
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
         
         <item name="android:backgroundDimEnabled">true</item>
-    </style><declare-styleable name="ShapeLayout">
-        <attr name="corners_radius_weight"/>
-        <attr name="corners_radius"/>
-        <attr name="corners_left_radius"/>
-        <attr name="corners_top_radius"/>
-        <attr name="corners_right_radius"/>
-        <attr name="corners_bottom_radius"/>
-        <attr name="solid_color"/>
-        <attr name="gradient_start_color"/>
-        <attr name="gradient_center_color"/>
-        <attr name="gradient_end_color"/>
-        <attr name="gradient_center_x"/>
-        <attr name="gradient_center_y"/>
-        <attr name="gradient_radius"/>
-        <attr name="gradient_type"/>
-        <attr name="gradient_angle"/>
-        <attr name="stroke_color"/>
-        <attr name="stroke_width"/>
-        <attr name="stroke_dash_width"/>
-        <attr name="stroke_dash_gap"/>
-    </declare-styleable><attr format="enum" name="corners_radius_weight">
-        <enum name="width" value="0"/>
-        <enum name="height" value="1"/>
-    </attr></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/app/src/main/res"><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" preprocessing="true" qualifiers="v24"><generated-file path="/Users/huangfei/AndroidProject/my_app/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml" qualifiers="anydpi-v24" type="drawable"/></file><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/drawable-xhdpi/ic_launcher_background.xml" preprocessing="true" qualifiers="xhdpi-v4"><generated-file path="/Users/huangfei/AndroidProject/my_app/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="/Users/huangfei/AndroidProject/my_app/app/build/generated/res/pngs/debug/drawable-xhdpi-v21/ic_launcher_background.xml" qualifiers="xhdpi-v21" type="drawable"/></file></source><source path="/Users/huangfei/AndroidProject/my_app/app/build/generated/res/rs/debug"/><source path="/Users/huangfei/AndroidProject/my_app/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/app/src/main/res"><file name="ic_launcher" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="shape_test" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/drawable/shape_test.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="fragment_main" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/fragment_main.xml" qualifiers="" type="layout"/><file name="dialog_b" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/dialog_b.xml" qualifiers="" type="layout"/><file name="dialog_a" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/dialog_a.xml" qualifiers="" type="layout"/><file name="activity_main1" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/activity_main1.xml" qualifiers="" type="layout"/><file name="activity_main" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="dialog_b1" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/dialog_b1.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/values/colors.xml" qualifiers=""><color name="colorPrimary">#008577</color><color name="colorPrimaryDark">#00574B</color><color name="colorAccent">#D81B60</color></file><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/app/src/main/res"><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" preprocessing="true" qualifiers="v24"><generated-file path="/Users/huangfei/AndroidProject/my_app/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml" qualifiers="anydpi-v24" type="drawable"/></file><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/drawable-xhdpi/ic_launcher_background.xml" preprocessing="true" qualifiers="xhdpi-v4"><generated-file path="/Users/huangfei/AndroidProject/my_app/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="/Users/huangfei/AndroidProject/my_app/app/build/generated/res/pngs/debug/drawable-xhdpi-v21/ic_launcher_background.xml" qualifiers="xhdpi-v21" type="drawable"/></file></source><source path="/Users/huangfei/AndroidProject/my_app/app/build/generated/res/rs/debug"/><source path="/Users/huangfei/AndroidProject/my_app/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/huangfei/AndroidProject/my_app/app/src/main/res"><file name="ic_launcher" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="shape_test" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/drawable/shape_test.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="fragment_main" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/fragment_main.xml" qualifiers="" type="layout"/><file name="dialog_b" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/dialog_b.xml" qualifiers="" type="layout"/><file name="dialog_a" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/dialog_a.xml" qualifiers="" type="layout"/><file name="activity_main1" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/activity_main1.xml" qualifiers="" type="layout"/><file name="activity_main" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="dialog_b1" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/layout/dialog_b1.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/values/colors.xml" qualifiers=""><color name="colorPrimary">#008577</color><color name="colorPrimaryDark">#00574B</color><color name="colorAccent">#D81B60</color></file><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style><style name="toolbar">
+        <item name="corners_radius">30dp</item>
+        <item name="solid_color">@color/colorPrimaryDark</item>
+        <item name="solid_text_color">#333333</item>
+    </style><style name="un_toolbar">
+        <item name="corners_radius">10dp</item>
+        <item name="stroke_width">1dp</item>
+        <item name="solid_color">#00000000</item>
+        <item name="stroke_color">@color/colorAccent</item>
+        <item name="solid_text_color">@color/colorAccent</item>
     </style></file><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">呵呵</string><string name="title_activity_login">Sign in</string><string name="prompt_email">Email</string><string name="prompt_password">Password</string><string name="action_sign_in">Sign in or register</string><string name="action_sign_in_short">Sign in</string><string name="welcome">"Welcome !"</string><string name="invalid_username">Not a valid username</string><string name="invalid_password">Password must be >5 characters</string><string name="login_failed">"Login failed"</string></file><file path="/Users/huangfei/AndroidProject/my_app/app/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="background">
         <attr format="enum" name="bl_shape">
             <enum name="rectangle" value="0"/>
@@ -7046,26 +7062,7 @@
     <attr format="boolean" name="state_lifted"/>
     
     <attr format="boolean" name="state_liftable"/>
-  </declare-styleable><declare-styleable name="ShapeTextView">
-        <attr name="corners_radius"/>
-        <attr name="corners_left_radius"/>
-        <attr name="corners_top_radius"/>
-        <attr name="corners_right_radius"/>
-        <attr name="corners_bottom_radius"/>
-        <attr name="solid_color"/>
-        <attr name="gradient_start_color"/>
-        <attr name="gradient_center_color"/>
-        <attr name="gradient_end_color"/>
-        <attr name="gradient_center_x"/>
-        <attr name="gradient_center_y"/>
-        <attr name="gradient_radius"/>
-        <attr name="gradient_type"/>
-        <attr name="gradient_angle"/>
-        <attr name="stroke_color"/>
-        <attr name="stroke_width"/>
-        <attr name="stroke_dash_width"/>
-        <attr name="stroke_dash_gap"/>
-    </declare-styleable><declare-styleable name="BottomAppBar">
+  </declare-styleable><declare-styleable name="BottomAppBar">
     
     <attr name="backgroundTint"/>
     
@@ -7362,6 +7359,11 @@
             
             <flag name="all" value="0x77"/>
         </attr>
+    </declare-styleable><declare-styleable name="StateLayout">
+        <attr name="selected"/>
+        <attr name="selected_appearance"/>
+        <attr name="unselected_appearance"/>
+        <attr name="default_appearance"/>
     </declare-styleable><declare-styleable name="NavigationView">
     <attr name="android:background"/>
     <attr name="android:fitsSystemWindows"/>
@@ -7430,26 +7432,6 @@
 
         
         <attr name="android:tileMode"/>
-    </declare-styleable><declare-styleable name="ShapeLayout">
-        <attr name="corners_radius_weight"/>
-        <attr name="corners_radius"/>
-        <attr name="corners_left_radius"/>
-        <attr name="corners_top_radius"/>
-        <attr name="corners_right_radius"/>
-        <attr name="corners_bottom_radius"/>
-        <attr name="solid_color"/>
-        <attr name="gradient_start_color"/>
-        <attr name="gradient_center_color"/>
-        <attr name="gradient_end_color"/>
-        <attr name="gradient_center_x"/>
-        <attr name="gradient_center_y"/>
-        <attr name="gradient_radius"/>
-        <attr name="gradient_type"/>
-        <attr name="gradient_angle"/>
-        <attr name="stroke_color"/>
-        <attr name="stroke_width"/>
-        <attr name="stroke_dash_width"/>
-        <attr name="stroke_dash_gap"/>
     </declare-styleable><declare-styleable name="AnimatedStateListDrawableItem">
         
         <attr name="android:drawable"/>
@@ -7924,6 +7906,27 @@
         <attr format="color" name="bl_unSelected_solid_color"/>
         <attr format="color" name="bl_unPressed_solid_color"/>
         <attr format="color" name="bl_unFocused_solid_color"/>
+    </declare-styleable><declare-styleable name="State">
+        <attr name="corners_radius_weight"/>
+        <attr name="corners_radius"/>
+        <attr name="corners_left_radius"/>
+        <attr name="corners_top_radius"/>
+        <attr name="corners_right_radius"/>
+        <attr name="corners_bottom_radius"/>
+        <attr name="solid_color"/>
+        <attr name="solid_text_color"/>
+        <attr name="gradient_start_color"/>
+        <attr name="gradient_center_color"/>
+        <attr name="gradient_end_color"/>
+        <attr name="gradient_center_x"/>
+        <attr name="gradient_center_y"/>
+        <attr name="gradient_radius"/>
+        <attr name="gradient_type"/>
+        <attr name="gradient_angle"/>
+        <attr name="stroke_color"/>
+        <attr name="stroke_width"/>
+        <attr name="stroke_dash_width"/>
+        <attr name="stroke_dash_gap"/>
     </declare-styleable><declare-styleable name="TextInputEditText">
     
     <attr format="boolean" name="textInputLayoutFocusedRectEnabled"/>

@@ -22,11 +22,18 @@ internal class PermissionFragment : Fragment() {
     }
 
     private val mRequestPermissionMap = hashMapOf<Int, (List<PermissionData>) -> Unit>()
+
+    /**
+     * 请求权限
+     */
     fun request(code: Int, list: List<String>, block: (List<PermissionData>) -> Unit) {
         this.requestPermissions(list.toTypedArray(), code)
         mRequestPermissionMap[code] = block
     }
 
+    /**
+     * 检查有没有上次请求被拒的权限
+     */
     fun checkDeniedByLastRequest(list: List<String>): List<String> {
         val context = checkNotNull(activity)
         return list.filter {

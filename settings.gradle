@@ -1,4 +1,4 @@
-include ':mylibrary'
+include ':layout'
 include ':utils'
 include ':work'
 include ':permission'

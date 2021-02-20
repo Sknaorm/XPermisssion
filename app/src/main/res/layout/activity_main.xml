@@ -6,20 +6,20 @@
         android:orientation="vertical">
 
 
-    <com.cn.layout.ShapeLayout
+    <com.cn.layout.StateLayout
+            android:layout_margin="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:corners_radius="15dp"
-            app:solid_color="@color/colorAccent">
-
+            app:default_appearance="@style/un_toolbar"
+          >
         <TextView
+                android:id="@+id/aaa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingHorizontal="50dp"
                 android:paddingVertical="15dp"
                 android:text="我是狗" />
-    </com.cn.layout.ShapeLayout>
-
+    </com.cn.layout.StateLayout>
 </LinearLayout>
 
 

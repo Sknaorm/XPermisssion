@@ -27,9 +27,15 @@ class PermissionHelper private constructor(private val manager: FragmentManager,
     private val mRequestFragment by lazy { PermissionFragment.getInstance(manager) }
     internal var requestCode = builder.requestCode
     internal val permissions = builder.permissions
-    fun request(block: (Result) -> Unit) {
+    fun requestResult(block: (Result) -> Unit) {
         mRequestFragment.request(requestCode, permissions) {
             block(Result(it))
+        }
+    }
+
+    fun request(block: (Boolean) -> Unit) {
+        requestResult {
+            block(it.isGranted)
         }
     }
 
@@ -58,7 +64,7 @@ class Result(val data: List<PermissionData>) {
         }
         isGranted
     }
-    val hasPermanentRefused by lazy {
+    val isNeverRefuse by lazy {
         data.find { it.isNeverRefuse } != null
     }
 }
