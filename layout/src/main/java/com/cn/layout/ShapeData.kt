@@ -2,6 +2,7 @@ package com.cn.layout
 
 import android.content.Context
 import android.graphics.drawable.GradientDrawable
+import android.util.AttributeSet
 import android.view.View
 import kotlin.math.min
 
@@ -39,6 +40,39 @@ class ShapeData {
                 mStrokeDashWidth = ta.getDimension(R.styleable.State_stroke_width, 0F)
                 mStrokeDashGap = ta.getDimension(R.styleable.State_stroke_dash_gap, 0F)
                 mStrokeDashWidth = ta.getDimension(R.styleable.State_stroke_dash_width, 0F)
+                ta.recycle()
+            }
+        }
+        fun createByAttr(context: Context, attrs: AttributeSet): ShapeData {
+            return ShapeData().apply {
+                val ta = context.obtainStyledAttributes(attrs, R.styleable.StateLayout)
+                mCornersRadiusWeight = ta.getInt(R.styleable.StateLayout_corners_radius_weight, -1)
+                if (mCornersRadiusWeight == -1) {
+                    mCornersRadius = ta.getDimension(R.styleable.StateLayout_corners_radius, 0F)
+                    mLeftCornersRadius =
+                        ta.getDimension(R.styleable.StateLayout_corners_left_radius, mCornersRadius)
+                    mTopCornersRadius =
+                        ta.getDimension(R.styleable.StateLayout_corners_top_radius, mCornersRadius)
+                    mRightCornersRadius =
+                        ta.getDimension(R.styleable.StateLayout_corners_right_radius, mCornersRadius)
+                    mBottomCornersRadius =
+                        ta.getDimension(R.styleable.StateLayout_corners_bottom_radius, mCornersRadius)
+                }
+                mSolidColor = ta.getColor(R.styleable.StateLayout_solid_color, -1)
+                mSolidTextColor = ta.getColor(R.styleable.StateLayout_solid_text_color, -1)
+                mGradientAngle = getGradientAngle(ta.getInt(R.styleable.StateLayout_gradient_angle, 0))
+                mGradientType = getGradientType(ta.getInt(R.styleable.StateLayout_gradient_type, 0))
+                mGradientStartColor = ta.getColor(R.styleable.StateLayout_gradient_start_color, -1)
+                mGradientCenterColor = ta.getColor(R.styleable.StateLayout_gradient_center_color, -1)
+                mGradientEndColor = ta.getColor(R.styleable.StateLayout_gradient_end_color, -1)
+                mGradientCenterX = ta.getFloat(R.styleable.StateLayout_gradient_center_x, 0.5F)
+                mGradientCenterY = ta.getFloat(R.styleable.StateLayout_gradient_center_y, 0.5F)
+                mGradientRadius = ta.getFraction(R.styleable.StateLayout_gradient_radius, 1, 1, 0.5F)
+                mStrokeWidth= ta.getDimension(R.styleable.StateLayout_stroke_width ,0F)
+                mStrokeColor = ta.getColor(R.styleable.StateLayout_stroke_color, -1)
+                mStrokeDashWidth = ta.getDimension(R.styleable.StateLayout_stroke_width, 0F)
+                mStrokeDashGap = ta.getDimension(R.styleable.StateLayout_stroke_dash_gap, 0F)
+                mStrokeDashWidth = ta.getDimension(R.styleable.StateLayout_stroke_dash_width, 0F)
                 ta.recycle()
             }
         }

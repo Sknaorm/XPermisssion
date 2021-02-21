@@ -943,7 +943,7 @@
     <item name="android:windowExitAnimation">@anim/mtrl_bottom_sheet_slide_out</item>
   </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -6507,6 +6507,26 @@
         <attr name="selected_appearance"/>
         <attr name="unselected_appearance"/>
         <attr name="default_appearance"/>
+        <attr name="corners_radius_weight"/>
+        <attr name="corners_radius"/>
+        <attr name="corners_left_radius"/>
+        <attr name="corners_top_radius"/>
+        <attr name="corners_right_radius"/>
+        <attr name="corners_bottom_radius"/>
+        <attr name="solid_color"/>
+        <attr name="solid_text_color"/>
+        <attr name="gradient_start_color"/>
+        <attr name="gradient_center_color"/>
+        <attr name="gradient_end_color"/>
+        <attr name="gradient_center_x"/>
+        <attr name="gradient_center_y"/>
+        <attr name="gradient_radius"/>
+        <attr name="gradient_type"/>
+        <attr name="gradient_angle"/>
+        <attr name="stroke_color"/>
+        <attr name="stroke_width"/>
+        <attr name="stroke_dash_width"/>
+        <attr name="stroke_dash_gap"/>
     </declare-styleable>
     <declare-styleable name="StateListDrawable">
         
@@ -6527,6 +6547,32 @@
     <declare-styleable name="StateListDrawableItem">
         
         <attr name="android:drawable"/>
+    </declare-styleable>
+    <declare-styleable name="StateStub">
+        <attr name="selected"/>
+        <attr name="selected_appearance"/>
+        <attr name="unselected_appearance"/>
+        <attr name="default_appearance"/>
+        <attr name="corners_radius_weight"/>
+        <attr name="corners_radius"/>
+        <attr name="corners_left_radius"/>
+        <attr name="corners_top_radius"/>
+        <attr name="corners_right_radius"/>
+        <attr name="corners_bottom_radius"/>
+        <attr name="solid_color"/>
+        <attr name="solid_text_color"/>
+        <attr name="gradient_start_color"/>
+        <attr name="gradient_center_color"/>
+        <attr name="gradient_end_color"/>
+        <attr name="gradient_center_x"/>
+        <attr name="gradient_center_y"/>
+        <attr name="gradient_radius"/>
+        <attr name="gradient_type"/>
+        <attr name="gradient_angle"/>
+        <attr name="stroke_color"/>
+        <attr name="stroke_width"/>
+        <attr name="stroke_dash_width"/>
+        <attr name="stroke_dash_gap"/>
     </declare-styleable>
     <declare-styleable name="SwipeRefreshLayout">
         

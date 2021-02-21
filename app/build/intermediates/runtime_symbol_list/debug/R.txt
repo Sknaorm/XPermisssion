@@ -3813,11 +3813,31 @@ int styleable State_stroke_color 16
 int styleable State_stroke_dash_gap 17
 int styleable State_stroke_dash_width 18
 int styleable State_stroke_width 19
-int[] styleable StateLayout { 0x7f03016d, 0x7f0302af, 0x7f0302b0, 0x7f030354 }
-int styleable StateLayout_default_appearance 0
-int styleable StateLayout_selected 1
-int styleable StateLayout_selected_appearance 2
-int styleable StateLayout_unselected_appearance 3
+int[] styleable StateLayout { 0x7f03015b, 0x7f03015c, 0x7f03015d, 0x7f03015e, 0x7f03015f, 0x7f030160, 0x7f03016d, 0x7f0301c1, 0x7f0301c2, 0x7f0301c3, 0x7f0301c4, 0x7f0301c5, 0x7f0301c6, 0x7f0301c7, 0x7f0301c8, 0x7f0302af, 0x7f0302b0, 0x7f0302c4, 0x7f0302c5, 0x7f0302dd, 0x7f0302de, 0x7f0302df, 0x7f0302e0, 0x7f030354 }
+int styleable StateLayout_corners_bottom_radius 0
+int styleable StateLayout_corners_left_radius 1
+int styleable StateLayout_corners_radius 2
+int styleable StateLayout_corners_radius_weight 3
+int styleable StateLayout_corners_right_radius 4
+int styleable StateLayout_corners_top_radius 5
+int styleable StateLayout_default_appearance 6
+int styleable StateLayout_gradient_angle 7
+int styleable StateLayout_gradient_center_color 8
+int styleable StateLayout_gradient_center_x 9
+int styleable StateLayout_gradient_center_y 10
+int styleable StateLayout_gradient_end_color 11
+int styleable StateLayout_gradient_radius 12
+int styleable StateLayout_gradient_start_color 13
+int styleable StateLayout_gradient_type 14
+int styleable StateLayout_selected 15
+int styleable StateLayout_selected_appearance 16
+int styleable StateLayout_solid_color 17
+int styleable StateLayout_solid_text_color 18
+int styleable StateLayout_stroke_color 19
+int styleable StateLayout_stroke_dash_gap 20
+int styleable StateLayout_stroke_dash_width 21
+int styleable StateLayout_stroke_width 22
+int styleable StateLayout_unselected_appearance 23
 int[] styleable StateListDrawable { 0x0101011c, 0x01010194, 0x01010195, 0x01010196, 0x0101030c, 0x0101030d }
 int styleable StateListDrawable_android_dither 0
 int styleable StateListDrawable_android_visible 1
@@ -3827,6 +3847,31 @@ int styleable StateListDrawable_android_enterFadeDuration 4
 int styleable StateListDrawable_android_exitFadeDuration 5
 int[] styleable StateListDrawableItem { 0x01010199 }
 int styleable StateListDrawableItem_android_drawable 0
+int[] styleable StateStub { 0x7f03015b, 0x7f03015c, 0x7f03015d, 0x7f03015e, 0x7f03015f, 0x7f030160, 0x7f03016d, 0x7f0301c1, 0x7f0301c2, 0x7f0301c3, 0x7f0301c4, 0x7f0301c5, 0x7f0301c6, 0x7f0301c7, 0x7f0301c8, 0x7f0302af, 0x7f0302b0, 0x7f0302c4, 0x7f0302c5, 0x7f0302dd, 0x7f0302de, 0x7f0302df, 0x7f0302e0, 0x7f030354 }
+int styleable StateStub_corners_bottom_radius 0
+int styleable StateStub_corners_left_radius 1
+int styleable StateStub_corners_radius 2
+int styleable StateStub_corners_radius_weight 3
+int styleable StateStub_corners_right_radius 4
+int styleable StateStub_corners_top_radius 5
+int styleable StateStub_default_appearance 6
+int styleable StateStub_gradient_angle 7
+int styleable StateStub_gradient_center_color 8
+int styleable StateStub_gradient_center_x 9
+int styleable StateStub_gradient_center_y 10
+int styleable StateStub_gradient_end_color 11
+int styleable StateStub_gradient_radius 12
+int styleable StateStub_gradient_start_color 13
+int styleable StateStub_gradient_type 14
+int styleable StateStub_selected 15
+int styleable StateStub_selected_appearance 16
+int styleable StateStub_solid_color 17
+int styleable StateStub_solid_text_color 18
+int styleable StateStub_stroke_color 19
+int styleable StateStub_stroke_dash_gap 20
+int styleable StateStub_stroke_dash_width 21
+int styleable StateStub_stroke_width 22
+int styleable StateStub_unselected_appearance 23
 int[] styleable SwipeRefreshLayout { 0x7f0302eb }
 int styleable SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor 0
 int[] styleable SwitchCompat { 0x01010124, 0x01010125, 0x01010142, 0x7f0302ba, 0x7f0302ca, 0x7f0302ec, 0x7f0302ed, 0x7f0302ef, 0x7f03032e, 0x7f03032f, 0x7f030330, 0x7f03034b, 0x7f030350, 0x7f030351 }

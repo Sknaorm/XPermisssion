@@ -3,21 +3,19 @@ package com.cn.layout
 import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.Color
-import android.graphics.drawable.Drawable
 import android.graphics.drawable.StateListDrawable
 import android.util.AttributeSet
-import android.util.Log
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.TextView
 
 class StateLayout(context: Context, attrs: AttributeSet) : FrameLayout(context, attrs) {
-    var isChildSelected = false
-    val mChildMeasureHeight = 0
-    val mChildMeasureWidth = 0
-    var mDefaultBackground: ShapeData? = null
-    var mSelectedBackground: ShapeData? = null
-    var mUnselectedBackground: ShapeData? = null
+    private var isChildSelected = false
+    private val mChildMeasureHeight = 0
+    private val mChildMeasureWidth = 0
+    private var mDefaultBackground: ShapeData? = null
+    private var mSelectedBackground: ShapeData? = null
+    private var mUnselectedBackground: ShapeData? = null
         get() {
             if (field == null) {
                 field = mDefaultBackground
@@ -31,6 +29,7 @@ class StateLayout(context: Context, attrs: AttributeSet) : FrameLayout(context, 
         val default = ta.getResourceId(R.styleable.StateLayout_default_appearance, -1)
         val selected = ta.getResourceId(R.styleable.StateLayout_selected_appearance, -1)
         val unselected = ta.getResourceId(R.styleable.StateLayout_unselected_appearance, -1)
+        mDefaultBackground = ShapeData.createByAttr(context, attrs)
         if (default != -1) {
             mDefaultBackground = ShapeData.createByAttr(context, default)
         }
@@ -46,7 +45,7 @@ class StateLayout(context: Context, attrs: AttributeSet) : FrameLayout(context, 
     /**
      * 避免重复设置背景
      */
-    fun isNeedMeasureAgain(child: View): Boolean {
+    private fun isNeedMeasureAgain(child: View): Boolean {
         if (child.measuredWidth == mChildMeasureWidth && child.measuredHeight == mChildMeasureHeight) {
             return false
         }
@@ -62,11 +61,9 @@ class StateLayout(context: Context, attrs: AttributeSet) : FrameLayout(context, 
             val child = getChildAt(0)
             measureChild(child, widthMeasureSpec, heightMeasureSpec)
             if (isNeedMeasureAgain(child)) {
-                val background = createStateListDrawable(child)
-                val textColor = createColorStateList()
-                child.background = background
+                setBackground(child)
                 if (child is TextView) {
-                    child.setTextColor(textColor)
+                    setChildTextColor(child)
                 }
                 child.isSelected = isChildSelected
             }
@@ -77,8 +74,13 @@ class StateLayout(context: Context, attrs: AttributeSet) : FrameLayout(context, 
     /**
      * 目前只实现了 selector 与 default
      */
-    private fun createStateListDrawable(child: View): StateListDrawable {
-        return StateListDrawable().apply {
+    private fun setBackground(child: View) {
+        val default = mDefaultBackground ?: return
+        if (mSelectedBackground == null) {
+            child.background = default.getBackground(child)
+            return
+        }
+        val drawable = StateListDrawable().apply {
             addState(
                 intArrayOf(android.R.attr.state_selected),
                 mSelectedBackground?.getBackground(child)
@@ -92,10 +94,16 @@ class StateLayout(context: Context, attrs: AttributeSet) : FrameLayout(context, 
                 mDefaultBackground?.getBackground(child)
             )
         }
+        child.background = drawable
     }
 
-    private fun createColorStateList(): ColorStateList {
-        return ColorStateList(
+    private fun setChildTextColor(child: TextView) {
+        val default = mDefaultBackground ?: return
+        if (mSelectedBackground == null) {
+            child.setTextColor(default.getTextColor())
+            return
+        }
+        val color = ColorStateList(
             arrayOf(
                 intArrayOf(android.R.attr.state_selected),
                 intArrayOf(-android.R.attr.state_selected),
@@ -107,6 +115,7 @@ class StateLayout(context: Context, attrs: AttributeSet) : FrameLayout(context, 
                 mDefaultBackground?.getTextColor() ?: Color.BLACK
             )
         )
+        child.setTextColor(color)
     }
 }
 
