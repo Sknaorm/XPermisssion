@@ -4,6 +4,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+    <com.cn.layout.Appearance
+            app:bind_id="@id/aaa"
+            app:selector_state="SELECTED"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:corners_radius="15dp"
+            app:solid_color="@color/colorPrimaryDark" />
 
 
     <ImageView
@@ -11,15 +18,6 @@
             android:layout_width="10dp"
             android:layout_height="10dp"
           />
-
-
-        <com.cn.layout.Appearance
-                app:bind_id="@id/aaa"
-                app:selector_state="SELECTED"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                app:corners_radius="15dp"
-                app:solid_color="@color/colorPrimaryDark" />
 
 </LinearLayout>
 

@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.GradientDrawable
 import android.util.AttributeSet
+import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
@@ -271,12 +272,15 @@ class Appearance(context: Context, attrs: AttributeSet) : View(context, attrs) {
         }
         return gradientDrawable
     }
-
-    /**
-     * 有些属性需要测量之后才可以得到
-     * 如果迷人背景不为空，计算出圆角之后在设置背景
-     */
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
+        val bindView = (this.parent as? ViewGroup)?.findViewById<View>(mBindId) ?: return
+        Log.e("1234","onMeasure ${bindView.measuredHeight} ${bindView.measuredWidth}" )
+        setMeasuredDimension(0, 0)
+    }
+
+    override fun onAttachedToWindow() {
+        val bindView = (this.parent as? ViewGroup)?.findViewById<View>(mBindId) ?: return
+        Log.e("1234","onAttachedToWindow ${bindView.measuredHeight} ${bindView.measuredWidth}" )
         if (this.parent !is AppearanceLayout) {
             if (mBindId != -1) {
                 val bindView = (this.parent as? ViewGroup)?.findViewById<View>(mBindId) ?: return
@@ -290,7 +294,7 @@ class Appearance(context: Context, attrs: AttributeSet) : View(context, attrs) {
                 }
             }
         }
-        setMeasuredDimension(0, 0)
+        super.onAttachedToWindow()
     }
 
     internal fun getShapeDrawable(child: View): Drawable {
