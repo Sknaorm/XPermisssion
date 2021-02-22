@@ -7,11 +7,11 @@
 
     <TextView
         android:layout_margin="50dp"
+        android:textSize="12dp"
         android:id="@+id/aaa"
         android:layout_width="300dp"
-        android:textColor="#f5f5f5"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_height="100dp"
-        android:gravity="center_horizontal|center"
         android:text="我日你妈" />
 
 
@@ -19,9 +19,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:bind_id="@id/aaa"
-        app:isSelected="false"
-        app:selected_drawable="@style/a"
-        app:default_drawable="@style/b"
+        app:isSelected="true"
+        app:selected_text_color="@color/colorAccent"
+        app:default_text_color="@color/colorPrimaryDark"
+        app:selected_drawable="@drawable/shape_test"
+        app:default_drawable="@mipmap/ic_home_head"
         />
 
 

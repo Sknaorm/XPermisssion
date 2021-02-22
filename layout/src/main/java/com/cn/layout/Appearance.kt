@@ -31,13 +31,16 @@ class Appearance(context: Context, attrs: AttributeSet) : View(context, attrs) {
         if (defaultTextColor != -1) {
             mDefaultTextColor = ColorStateList.valueOf(defaultTextColor)
         }
-        val selectedDrawable = ta.getResourceId(R.styleable.Appearance_selected_drawable, -1)
-        if (selectedDrawable != -1) {
-            mSelectedDrawable = AppearanceUtils.getDrawableByAttrs(context, selectedDrawable)
+        mSelectedDrawable = ta.getDrawable(R.styleable.Appearance_selected_drawable)
+        val selectedStyle = ta.getResourceId(R.styleable.Appearance_selected_style, -1)
+        if (selectedStyle != -1) {
+            mSelectedDrawable = AppearanceUtils.getDrawableByAttrs(context, selectedStyle)
         }
-        val defaultDrawable = ta.getResourceId(R.styleable.Appearance_default_drawable, -1)
-        if (defaultDrawable != -1) {
-            mDefaultDrawable = AppearanceUtils.getDrawableByAttrs(context, defaultDrawable)
+        //style文件
+        mDefaultDrawable = ta.getDrawable(R.styleable.Appearance_default_drawable)
+        val defaultStyle = ta.getResourceId(R.styleable.Appearance_default_style, -1)
+        if (defaultStyle != -1) {
+            mDefaultDrawable = AppearanceUtils.getDrawableByAttrs(context, defaultStyle)
         }
         ta.recycle()
     }
@@ -53,8 +56,14 @@ class Appearance(context: Context, attrs: AttributeSet) : View(context, attrs) {
                 mBindView.background = mDefaultDrawable
             } else {
                 val stateListDrawable = StateListDrawable()
-                stateListDrawable.addState(intArrayOf(android.R.attr.state_selected), mSelectedDrawable)
-                stateListDrawable.addState(intArrayOf(-android.R.attr.state_selected), mDefaultDrawable)
+                stateListDrawable.addState(
+                    intArrayOf(android.R.attr.state_selected),
+                    mSelectedDrawable
+                )
+                stateListDrawable.addState(
+                    intArrayOf(-android.R.attr.state_selected),
+                    mDefaultDrawable
+                )
                 mBindView.background = stateListDrawable
             }
         }

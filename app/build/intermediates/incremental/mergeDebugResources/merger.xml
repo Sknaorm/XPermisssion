@@ -5730,6 +5730,8 @@
         <attr format="boolean" name="isSelected"/>
         <attr format="color" name="selected_text_color"/>
         <attr format="color" name="default_text_color"/>
+        <attr format="reference" name="selected_style"/>
+        <attr format="reference" name="default_style"/>
         <attr format="reference" name="selected_drawable"/>
         <attr format="reference" name="default_drawable"/>
     </declare-styleable><declare-styleable name="Appearance_State">
@@ -7092,6 +7094,8 @@
         <attr format="boolean" name="isSelected"/>
         <attr format="color" name="selected_text_color"/>
         <attr format="color" name="default_text_color"/>
+        <attr format="reference" name="selected_style"/>
+        <attr format="reference" name="default_style"/>
         <attr format="reference" name="selected_drawable"/>
         <attr format="reference" name="default_drawable"/>
     </declare-styleable><declare-styleable name="BottomAppBar">
