@@ -6,21 +6,21 @@ import androidx.fragment.app.FragmentManager
 import kotlin.properties.Delegates
 
 
-class PermissionHelper private constructor(private val manager: FragmentManager, builder: Builder) {
+class PermissionHelper internal constructor(
+    private val manager: FragmentManager,
+    builder: Builder
+) {
     companion object {
-        fun create(
-            fragmentActivity: FragmentActivity,
-            block: Builder.() -> Unit
-        ): PermissionHelper {
-            return create(fragmentActivity.supportFragmentManager, block)
+        fun newBuild(fragmentActivity: FragmentActivity): Builder {
+            return Builder(fragmentActivity.supportFragmentManager)
         }
 
-        fun create(fragment: Fragment, block: Builder.() -> Unit): PermissionHelper {
-            return create(fragment.childFragmentManager, block)
+        fun newBuild(fragment: Fragment): Builder {
+            return Builder(fragment.childFragmentManager)
         }
 
-        fun create(manager: FragmentManager, block: Builder.() -> Unit): PermissionHelper {
-            return PermissionHelper(manager, Builder().apply(block))
+        fun newBuild(manager: FragmentManager): Builder {
+            return Builder(manager)
         }
     }
 
@@ -45,12 +45,14 @@ class PermissionHelper private constructor(private val manager: FragmentManager,
     }
 }
 
-class Builder {
+class Builder(internal val fragmentManager: FragmentManager) {
     internal var requestCode = (Math.random() * 100).toInt()
     internal val permissions: ArrayList<String> = arrayListOf()
-    fun addPermission(name: String) {
+    fun addPermission(name: String) = apply {
         permissions.add(name)
     }
+
+    fun build() = PermissionHelper(fragmentManager, this)
 }
 
 class Result(val data: List<PermissionData>) {

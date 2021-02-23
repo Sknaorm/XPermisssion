@@ -1,6 +1,2 @@
-include ':layout'
-include ':utils'
-include ':work'
 include ':permission'
-include ':view'
 include ':app'
