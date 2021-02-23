@@ -76,10 +76,13 @@ abstract class QuickDialog(private val manager: FragmentManager) : DialogFragmen
         getX()?.let { mAttributes.x = it }
         getY()?.let { mAttributes.y = it }
         mWindow.attributes = mAttributes
-        if (isFullScreen()) {
-            mWindow.setBackgroundDrawable(
-                windowBackgroundDrawable() ?: ColorDrawable(Color.TRANSPARENT)
-            )
+        val windowBackgroundDrawable = windowBackgroundDrawable()
+        if (windowBackgroundDrawable == null) {
+            if (isFullScreen()) {
+                mWindow.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+            }
+        } else {
+            mWindow.setBackgroundDrawable(windowBackgroundDrawable)
         }
         init()
     }

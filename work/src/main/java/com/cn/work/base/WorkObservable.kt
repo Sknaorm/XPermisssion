@@ -1,6 +1,7 @@
-package com.cn.http.work.base
+package com.cn.work.base
 
-import com.cn.work.base.WorkObservableSwitchMap
+import com.cn.http.work.base.WorkObservableCreate
+import com.cn.http.work.base.WorkObservableMap
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch

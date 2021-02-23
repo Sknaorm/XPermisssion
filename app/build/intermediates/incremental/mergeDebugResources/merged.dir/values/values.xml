@@ -188,6 +188,37 @@
     <attr format="reference" name="shapeAppearanceLargeComponent"/>
     <attr format="reference" name="shapeAppearanceMediumComponent"/>
     <attr format="reference" name="shapeAppearanceSmallComponent"/>
+    <attr format="dimension" name="shape_corners_bottom_radius"/>
+    <attr format="dimension" name="shape_corners_left_radius"/>
+    <attr format="dimension" name="shape_corners_radius"/>
+    <attr format="dimension" name="shape_corners_right_radius"/>
+    <attr format="dimension" name="shape_corners_top_radius"/>
+    <attr format="enum" name="shape_gradient_angle">
+        <enum name="LEFT_RIGHT" value="0"/>
+        <enum name="BL_TR" value="45"/>
+        <enum name="BOTTOM_TOP" value="90"/>
+        <enum name="BR_TL" value="135"/>
+        <enum name="RIGHT_LEFT" value="180"/>
+        <enum name="TR_BL" value="225"/>
+        <enum name="TOP_BOTTOM" value="270"/>
+        <enum name="TL_BR" value="315"/>
+    </attr>
+    <attr format="color" name="shape_gradient_center_color"/>
+    <attr format="float" name="shape_gradient_center_x"/>
+    <attr format="float" name="shape_gradient_center_y"/>
+    <attr format="color" name="shape_gradient_end_color"/>
+    <attr format="dimension" name="shape_gradient_radius"/>
+    <attr format="color" name="shape_gradient_start_color"/>
+    <attr format="enum" name="shape_gradient_type">
+        <enum name="linear" value="0"/>
+        <enum name="radial" value="1"/>
+        <enum name="sweep" value="2"/>
+    </attr>
+    <attr format="color" name="shape_solid_color"/>
+    <attr format="color" name="shape_stroke_color"/>
+    <attr format="dimension" name="shape_stroke_dash_gap"/>
+    <attr format="dimension" name="shape_stroke_dash_width"/>
+    <attr format="dimension" name="shape_stroke_width"/>
     <attr format="reference" name="showMotionSpec"/>
     <attr format="boolean" name="singleSelection"/>
     <attr format="reference" name="sliderStyle"/>
@@ -4486,12 +4517,12 @@
         <item name="statusBarBackground">#000000</item>
     </style>
     <style name="a">
-    <item name="as_corners_radius">15dp</item>
-    <item name="as_solid_color">@color/colorPrimary</item>
+    <item name="shape_corners_radius">15dp</item>
+    <item name="shape_solid_color">@color/colorPrimary</item>
 </style>
     <style name="b">
-        <item name="as_corners_radius">15dp</item>
-        <item name="as_solid_color">@color/colorAccent</item>
+        <item name="shape_corners_radius">15dp</item>
+        <item name="shape_solid_color">@color/colorAccent</item>
     </style>
     <declare-styleable name="ActionBar">
         
@@ -5160,49 +5191,6 @@
         
         <attr format="reference" name="listChoiceIndicatorSingleAnimated"/>
 
-    </declare-styleable>
-    <declare-styleable name="Appearance">
-        <attr name="bind_id"/>
-        <attr format="boolean" name="isSelected"/>
-        <attr format="color" name="selected_text_color"/>
-        <attr format="color" name="default_text_color"/>
-        <attr format="reference" name="selected_style"/>
-        <attr format="reference" name="default_style"/>
-        <attr format="reference" name="selected_drawable"/>
-        <attr format="reference" name="default_drawable"/>
-    </declare-styleable>
-    <declare-styleable name="Appearance_State">
-        <attr format="dimension" name="as_corners_radius"/> >
-        <attr format="dimension" name="as_corners_left_radius"/>
-        <attr format="dimension" name="as_corners_top_radius"/>
-        <attr format="dimension" name="as_corners_right_radius"/>
-        <attr format="dimension" name="as_corners_bottom_radius"/>
-        <attr format="color" name="as_solid_color"/>
-        <attr format="color" name="as_gradient_start_color"/>
-        <attr format="color" name="as_gradient_center_color"/>
-        <attr format="color" name="as_gradient_end_color"/>
-        <attr format="float" name="as_gradient_center_x"/>
-        <attr format="float" name="as_gradient_center_y"/>
-        <attr format="dimension" name="as_gradient_radius"/>
-        <attr format="enum" name="as_gradient_type">
-            <enum name="linear" value="0"/>
-            <enum name="radial" value="1"/>
-            <enum name="sweep" value="2"/>
-        </attr>
-        <attr format="enum" name="as_gradient_angle">
-            <enum name="LEFT_RIGHT" value="0"/>
-            <enum name="BL_TR" value="45"/>
-            <enum name="BOTTOM_TOP" value="90"/>
-            <enum name="BR_TL" value="135"/>
-            <enum name="RIGHT_LEFT" value="180"/>
-            <enum name="TR_BL" value="225"/>
-            <enum name="TOP_BOTTOM" value="270"/>
-            <enum name="TL_BR" value="315"/>
-        </attr>
-        <attr format="color" name="as_stroke_color"/>
-        <attr format="dimension" name="as_stroke_width"/>
-        <attr format="dimension" name="as_stroke_dash_width"/>
-        <attr format="dimension" name="as_stroke_dash_gap"/>
     </declare-styleable>
     <declare-styleable name="Badge">
     <attr format="color" name="backgroundColor"/>
@@ -6270,6 +6258,37 @@
     
     <attr format="color" name="itemShapeFillColor"/>
   </declare-styleable>
+    <declare-styleable name="OneSelector">
+        <attr name="bind_id"/>
+        <attr format="boolean" name="isSelected"/>
+        <attr format="color" name="selected_text_color"/>
+        <attr format="color" name="default_text_color"/>
+        <attr format="reference" name="selected_style"/>
+        <attr format="reference" name="default_style"/>
+        <attr format="reference" name="selected_drawable"/>
+        <attr format="reference" name="default_drawable"/>
+    </declare-styleable>
+    <declare-styleable name="OneShape">
+        <attr name="bind_id"/>
+        <attr name="shape_corners_radius"/>>
+        <attr name="shape_corners_left_radius"/>
+        <attr name="shape_corners_top_radius"/>
+        <attr name="shape_corners_right_radius"/>
+        <attr name="shape_corners_bottom_radius"/>
+        <attr name="shape_solid_color"/>
+        <attr name="shape_gradient_start_color"/>
+        <attr name="shape_gradient_center_color"/>
+        <attr name="shape_gradient_end_color"/>
+        <attr name="shape_gradient_center_x"/>
+        <attr name="shape_gradient_center_y"/>
+        <attr name="shape_gradient_radius"/>
+        <attr name="shape_gradient_type"/>
+        <attr name="shape_gradient_angle"/>
+        <attr name="shape_stroke_color"/>
+        <attr name="shape_stroke_width"/>
+        <attr name="shape_stroke_dash_width"/>
+        <attr name="shape_stroke_dash_gap"/>
+    </declare-styleable>
     <declare-styleable name="PopupWindow">
         
         <attr format="boolean" name="overlapAnchor"/>
@@ -6479,6 +6498,26 @@
         <attr name="android:dropDownWidth"/>
         
         <attr name="android:entries"/>
+    </declare-styleable>
+    <declare-styleable name="State">
+        <attr name="shape_corners_radius"/>>
+        <attr name="shape_corners_left_radius"/>
+        <attr name="shape_corners_top_radius"/>
+        <attr name="shape_corners_right_radius"/>
+        <attr name="shape_corners_bottom_radius"/>
+        <attr name="shape_solid_color"/>
+        <attr name="shape_gradient_start_color"/>
+        <attr name="shape_gradient_center_color"/>
+        <attr name="shape_gradient_end_color"/>
+        <attr name="shape_gradient_center_x"/>
+        <attr name="shape_gradient_center_y"/>
+        <attr name="shape_gradient_radius"/>
+        <attr name="shape_gradient_type"/>
+        <attr name="shape_gradient_angle"/>
+        <attr name="shape_stroke_color"/>
+        <attr name="shape_stroke_width"/>
+        <attr name="shape_stroke_dash_width"/>
+        <attr name="shape_stroke_dash_gap"/>
     </declare-styleable>
     <declare-styleable name="StateListDrawable">
         

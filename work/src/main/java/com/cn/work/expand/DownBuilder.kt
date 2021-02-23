@@ -1,4 +1,4 @@
-package com.cn.http.work.expand
+package com.cn.work.expand
 
 import java.io.InputStream
 import java.io.OutputStream

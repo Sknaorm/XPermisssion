@@ -1,10 +1,9 @@
 package com.cn.work.expand
 
 import com.cn.work.base.WorkEmitter
-import com.cn.http.work.base.WorkObservable
+import com.cn.work.base.WorkObservable
 import com.cn.http.work.base.WorkObservableCreate
-import com.cn.http.work.base.WorkThread
-import com.cn.http.work.expand.DownBuilder
+import com.cn.work.base.WorkThread
 import java.io.File
 import java.lang.Exception
 import java.net.HttpURLConnection

@@ -1,6 +1,8 @@
 package com.cn.http.work.base
 
 import com.cn.work.base.WorkEmitter
+import com.cn.work.base.WorkObservable
+import com.cn.work.base.WorkObserver
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import kotlin.coroutines.CoroutineContext

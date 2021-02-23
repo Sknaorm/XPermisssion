@@ -9,11 +9,11 @@
     </style>
 
 <style name="a">
-    <item name="as_corners_radius">15dp</item>
-    <item name="as_solid_color">@color/colorPrimary</item>
+    <item name="shape_corners_radius">15dp</item>
+    <item name="shape_solid_color">@color/colorPrimary</item>
 </style>
     <style name="b">
-        <item name="as_corners_radius">15dp</item>
-        <item name="as_solid_color">@color/colorAccent</item>
+        <item name="shape_corners_radius">15dp</item>
+        <item name="shape_solid_color">@color/colorAccent</item>
     </style>
 </resources>

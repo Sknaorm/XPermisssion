@@ -6,29 +6,29 @@ import android.graphics.drawable.GradientDrawable
 
 object AppearanceUtils {
     fun getDrawableByAttrs(context: Context, id: Int): Drawable {
-        val ta = context.obtainStyledAttributes(id, R.styleable.Appearance_State)
-        val mCornersRadius = ta.getDimension(R.styleable.Appearance_State_as_corners_radius, 0F)
+        val ta = context.obtainStyledAttributes(id, R.styleable.State)
+        val mCornersRadius = ta.getDimension(R.styleable.State_shape_corners_radius, 0F)
         val mLeftCornersRadius =
-            ta.getDimension(R.styleable.Appearance_State_as_corners_left_radius, mCornersRadius)
+            ta.getDimension(R.styleable.State_shape_corners_left_radius, mCornersRadius)
         val mTopCornersRadius =
-            ta.getDimension(R.styleable.Appearance_State_as_corners_top_radius, mCornersRadius)
+            ta.getDimension(R.styleable.State_shape_corners_top_radius, mCornersRadius)
         val mRightCornersRadius =
-            ta.getDimension(R.styleable.Appearance_State_as_corners_right_radius, mCornersRadius)
+            ta.getDimension(R.styleable.State_shape_corners_right_radius, mCornersRadius)
         val mBottomCornersRadius =
-            ta.getDimension(R.styleable.Appearance_State_as_corners_bottom_radius, mCornersRadius)
-        val mSolidColor = ta.getColor(R.styleable.Appearance_State_as_solid_color, -1)
-        val mGradientAngle = getGradientAngle(ta.getInt(R.styleable.Appearance_State_as_gradient_angle, 0))
-        val mGradientType = getGradientType(ta.getInt(R.styleable.Appearance_State_as_gradient_type, 0))
-        val mGradientStartColor = ta.getColor(R.styleable.Appearance_State_as_gradient_start_color, -1)
-        val mGradientCenterColor = ta.getColor(R.styleable.Appearance_State_as_gradient_center_color, -1)
-        val mGradientEndColor = ta.getColor(R.styleable.Appearance_State_as_gradient_end_color, -1)
-        val mGradientCenterX = ta.getFloat(R.styleable.Appearance_State_as_gradient_center_x, 0.5F)
-        val mGradientCenterY = ta.getFloat(R.styleable.Appearance_State_as_gradient_center_y, 0.5F)
-        val mGradientRadius = ta.getDimension(R.styleable.Appearance_State_as_gradient_radius, 0F)
-        val mStrokeColor = ta.getColor(R.styleable.Appearance_State_as_stroke_color, -1)
-        val mStrokeWidth = ta.getDimension(R.styleable.Appearance_State_as_stroke_width, 0F)
-        val mStrokeDashGap = ta.getDimension(R.styleable.Appearance_State_as_stroke_dash_gap, 0F)
-        val mStrokeDashWidth = ta.getDimension(R.styleable.Appearance_State_as_stroke_dash_width, 0F)
+            ta.getDimension(R.styleable.State_shape_corners_bottom_radius, mCornersRadius)
+        val mSolidColor = ta.getColor(R.styleable.State_shape_solid_color, -1)
+        val mGradientAngle = getGradientAngle(ta.getInt(R.styleable.State_shape_gradient_angle, 0))
+        val mGradientType = getGradientType(ta.getInt(R.styleable.State_shape_gradient_type, 0))
+        val mGradientStartColor = ta.getColor(R.styleable.State_shape_gradient_start_color, -1)
+        val mGradientCenterColor = ta.getColor(R.styleable.State_shape_gradient_center_color, -1)
+        val mGradientEndColor = ta.getColor(R.styleable.State_shape_gradient_end_color, -1)
+        val mGradientCenterX = ta.getFloat(R.styleable.State_shape_gradient_center_x, 0.5F)
+        val mGradientCenterY = ta.getFloat(R.styleable.State_shape_gradient_center_y, 0.5F)
+        val mGradientRadius = ta.getDimension(R.styleable.State_shape_gradient_radius, 0F)
+        val mStrokeColor = ta.getColor(R.styleable.State_shape_stroke_color, -1)
+        val mStrokeWidth = ta.getDimension(R.styleable.State_shape_stroke_width, 0F)
+        val mStrokeDashGap = ta.getDimension(R.styleable.State_shape_stroke_dash_gap, 0F)
+        val mStrokeDashWidth = ta.getDimension(R.styleable.State_shape_stroke_dash_width, 0F)
         ta.recycle()
         return GradientDrawable().run {
             this.shape = GradientDrawable.RECTANGLE
@@ -83,7 +83,7 @@ object AppearanceUtils {
         }
     }
 
-    private fun getGradientType(result: Int): Int {
+     fun getGradientType(result: Int): Int {
         return when (result) {
             0 -> GradientDrawable.LINEAR_GRADIENT
             1 -> GradientDrawable.RADIAL_GRADIENT
@@ -92,7 +92,7 @@ object AppearanceUtils {
         }
     }
 
-    private fun getGradientAngle(result: Int): GradientDrawable.Orientation {
+     fun getGradientAngle(result: Int): GradientDrawable.Orientation {
         return when (result) {
             0 -> GradientDrawable.Orientation.LEFT_RIGHT
             45 -> GradientDrawable.Orientation.BL_TR

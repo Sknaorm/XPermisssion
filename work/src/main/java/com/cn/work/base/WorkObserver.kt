@@ -1,4 +1,4 @@
-package com.cn.http.work.base
+package com.cn.work.base
 
 
 abstract class WorkObserver<T> {

@@ -1,6 +1,6 @@
 //package com.cn.http.work.expand
 //
-//import com.cn.http.work.base.WorkObservable
+//import com.cn.work.base.WorkObservable
 //import retrofit2.*
 //import java.lang.reflect.ParameterizedType
 //import java.lang.reflect.Type

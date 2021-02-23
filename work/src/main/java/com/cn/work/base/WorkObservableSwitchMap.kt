@@ -1,7 +1,5 @@
 package com.cn.work.base
 
-import com.cn.http.work.base.WorkObservable
-import com.cn.http.work.base.WorkObserver
 import kotlinx.coroutines.CoroutineScope
 
 
