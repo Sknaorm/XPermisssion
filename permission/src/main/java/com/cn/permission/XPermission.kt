@@ -29,9 +29,9 @@ class XPermission internal constructor(
     private val mRequestFragment by lazy { PermissionFragment.getInstance(manager) }
     internal var requestCode = (Math.random() * 100).toInt()
     internal val permissions = builder.permissions
-    fun requestResult(block: PermissionResult.() -> Unit) {
+    fun requestResult(block: Result.() -> Unit) {
         mRequestFragment.request(requestCode, permissions) {
-            block(PermissionResult(it))
+            block(Result(it))
         }
     }
 

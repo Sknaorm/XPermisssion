@@ -8,25 +8,26 @@ import androidx.fragment.app.FragmentManager
 
 internal class PermissionFragment : Fragment() {
     companion object {
+        const val tag = "com.cn.permission.PermissionFragment"
         fun getInstance(manager: FragmentManager): PermissionFragment {
-            var tag = manager.findFragmentByTag("PermissionFragment") as? PermissionFragment
-            if (tag == null) {
-                tag = PermissionFragment()
+            var fragment = manager.findFragmentByTag(tag) as? PermissionFragment
+            if (fragment == null) {
+                fragment = PermissionFragment()
                 manager.beginTransaction()
-                    .add(tag, "permissionFragment")
+                    .add(fragment, tag)
                     .commitNowAllowingStateLoss()
                 manager.executePendingTransactions()
             }
-            return tag
+            return fragment
         }
     }
 
-    private val mRequestPermissionMap = hashMapOf<Int, (List<PermissionData>) -> Unit>()
+    private val mRequestPermissionMap = hashMapOf<Int, (List<Data>) -> Unit>()
 
     /**
      * 请求权限
      */
-    fun request(code: Int, list: List<String>, block: (List<PermissionData>) -> Unit) {
+    fun request(code: Int, list: List<String>, block: (List<Data>) -> Unit) {
         this.requestPermissions(list.toTypedArray(), code)
         mRequestPermissionMap[code] = block
     }
@@ -55,15 +56,15 @@ internal class PermissionFragment : Fragment() {
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         val block = mRequestPermissionMap[requestCode] ?: return
-        val resultData = arrayListOf<PermissionData>()
+        val resultData = arrayListOf<Data>()
         var permission: String
         var grantResult: Int
-        var result: PermissionData
+        var result: Data
         for (i in permissions.indices) {
             permission = permissions[i]
             grantResult = grantResults[i]
             val isGranted = grantResult == PackageManager.PERMISSION_GRANTED
-            result = PermissionData(
+            result = Data(
                 permission,
                 isGranted,
                 if (isGranted) false else !shouldShowRequestPermissionRationale(permission)

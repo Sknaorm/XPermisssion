@@ -1,6 +1,6 @@
 package com.cn.permission
 
-class PermissionResult(val data: List<PermissionData>) {
+class Result(val data: List<Data>) {
     val isGranted by lazy {
         var isGranted = true
         data.forEach {
