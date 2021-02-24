@@ -62,10 +62,11 @@ internal class PermissionFragment : Fragment() {
         for (i in permissions.indices) {
             permission = permissions[i]
             grantResult = grantResults[i]
+            val isGranted = grantResult == PackageManager.PERMISSION_GRANTED
             result = PermissionData(
                 permission,
-                grantResult == PackageManager.PERMISSION_GRANTED,
-                !shouldShowRequestPermissionRationale(permission)
+                isGranted,
+                if (isGranted) false else !shouldShowRequestPermissionRationale(permission)
             )
             resultData.add(result)
         }
